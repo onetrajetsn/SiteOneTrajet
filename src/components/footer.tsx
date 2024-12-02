@@ -7,7 +7,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="mt-10 bg-gray-900 px-8 pt-12">
+    <footer className="mt-10 bg-[#34208b] px-8 pt-12">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
@@ -19,7 +19,7 @@ export function Footer() {
               color="white"
               className="mb-4"
             >
-              Material Tailwind
+              OneTrajet
             </Typography>
             <Typography color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.

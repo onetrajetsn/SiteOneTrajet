@@ -34,7 +34,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/components/testimonial-card.jsx", "src/components/navbar.jsx", "src/components/layout.jsx", "src/components/info-card.jsx", "src/components/footer.jsx", "src/components/fixed-plugin.jsx", "src/components/feature-card.jsx", "src/app/video-intro.jsx", "src/app/testimonials.jsx", "src/app/page.jsx", "src/app/mobile-convenience.jsx", "src/app/layout.jsx", "src/app/index.jsx", "src/app/hero.jsx", "src/app/feature.jsx"  ],
   "exclude": [
     "node_modules"
   ]

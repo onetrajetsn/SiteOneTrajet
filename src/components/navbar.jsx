@@ -9,11 +9,8 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import logo from "../../public/logos/ONE-TRAJET.jpg"
-interface NavItemProps {
-  children: React.ReactNode;
-  href?: string;
-}
-function NavItem({ children, href }: NavItemProps) {
+
+function NavItem({ children, href }) {
   return (
     <li>
       <Typography

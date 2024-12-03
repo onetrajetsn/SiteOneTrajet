@@ -35,31 +35,30 @@ export function Faqs() {
     <section className="px-8 py-20">
       <div className="container max-w-6xl mx-auto">
         <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
+          <h1 className="mb-4">
             Frequently asked questions
-          </Typography>
-          <Typography
-            variant="lead"
+          </h1>
+          <p
             className="mx-auto mb-24 !text-gray-500 lg:w-3/5"
           >
             A lot of people don&apos;t appreciate the moment until it&apos;s
             passed. I&apos;m not trying my hardest, and I&apos;m not trying to
             do
-          </Typography>
+          </p>
         </div>
 
         <div className="grid gap-20 md:grid-cols-1 lg:grid-cols-3">
           {FAQS.map(({ title, desc }) => (
-            <Card key={title} shadow={false} color="transparent">
-              <Typography color="blue-gray" className="pb-6" variant="h4">
+            <div key={title}  className="bg-transparent">
+              <p className="pb-6">
                 {title}
-              </Typography>
+              </p>
               <div className="pt-2">
-                <Typography className="font-normal !text-gray-500">
+                <p className="font-normal !text-gray-500">
                   {desc}
-                </Typography>
+                </p>
               </div>
-            </Card>
+            </div>
           ))}
         </div>
       </div>

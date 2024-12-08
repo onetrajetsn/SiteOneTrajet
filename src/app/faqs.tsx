@@ -36,7 +36,7 @@ export function Faqs() {
       <div className="container max-w-6xl mx-auto">
         <div className="text-center">
           <h1 className="mb-4">
-            Frequently asked questions
+            FAQ
           </h1>
           <p
             className="mx-auto mb-24 !text-gray-500 lg:w-3/5"

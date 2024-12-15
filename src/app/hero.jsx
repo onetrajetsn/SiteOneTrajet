@@ -17,11 +17,11 @@ function Hero() {
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
-              Our app is here to empower you on your quest for knowledge,
-              anytime and anywhere.
+             Simplifiez vos trajets et facilitez le travail des receveurs
+              grâce à notre application innovante.
             </Typography>
             <Typography className="mb-4" color="white" variant="h6">
-              Get the app
+              Téléchargez l'application
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
               <Button
@@ -46,7 +46,7 @@ function Hero() {
                 <Image
                   width={256}
                   height={256}
-                  src="/logos/logo-google.png"
+                  src="/logos/play.webp"
                   alt="metamask"
                   className="w-6 h-6"
                 />
@@ -66,15 +66,17 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
           <Typography variant="h3" color="blue-gray" className="mb-3">
-            Learning App
+          Découvrez One Trajet
+           !
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
           >
-            Download our app to dive into a vast library of courses, tutorials,
-            and study materials on a wide range of subjects - from programming
-            and language learning to personal development and beyond
+            One Trajet est une application qui révolutionne le paiement des 
+            tickets de transport. Plus besoin de chercher de la 
+            monnaie ou de perdre du temps.
+            
           </Typography>
         </div>
       </div>

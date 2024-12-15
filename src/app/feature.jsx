@@ -15,27 +15,27 @@ import FeatureCard from "../components/feature-card";
 const FEATURES = [
   {
     icon: CursorArrowRaysIcon,
-    title: "Expert Instructors",
+    title: "Paiement sans contact",
     children:
-      "Learn from the best. Our instructors are industry experts, academics, and seasoned professionals dedicated to helping you.",
+      "Paiement rapide et sécurisé via mobile money ou carte bancaire.",
   },
   {
     icon: HeartIcon,
-    title: "Interactive Learning",
+    title: "Gestion des trajets",
     children:
-      "Engage with interactive quizzes, hands-on exercises, and discussion forums to reinforce your understanding and connect.",
+      "Suivez vos itinéraires et recevez des informations en temps réel sur votre transport.",
   },
   {
     icon: LockClosedIcon,
-    title: "Achievement Unlocked",
+    title: "Sécurité garantie",
     children:
-      "Earn certificates and badges as you complete courses, showcasing your newfound skills to the world.",
+      "Réduisez les échanges physiques d'argent et optez pour un système numérique sécurisé.",
   },
   {
     icon: LightBulbIcon,
-    title: "Personalized Progress Tracking",
+    title: "Économie de temps",
     children:
-      "Stay on top of your learning journey with progress tracking and personalized recommendations to keep you motivated.",
+      "Évitez les files d'attente en achetant vos tickets à l'avance.",
   },
 ];
 
@@ -47,15 +47,16 @@ export function Features() {
           Your Learning App
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4">
-          Diverse Learning Resources
+        Fonctionnalités de One Trajet
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
         >
-          Access your learning materials on the go. Whether you&apos;re
-          commuting, waiting for a friend, or just have a few minutes to spare,
-          our app fits seamlessly into your busy life.
+          One Trajet est une solution innovante qui permet de gérer le paiement 
+          des tickets de transport de manière digitale et sécurisée. 
+          Nous rendons les trajets plus simples 
+          pour les usagers et les receveurs grâce à une application moderne.
         </Typography>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">

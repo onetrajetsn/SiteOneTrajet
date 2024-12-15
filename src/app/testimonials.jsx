@@ -39,15 +39,15 @@ export function Testimonials() {
             <UserIcon className="h-6 w-6" />
           </div>
           <Typography variant="h2" color="blue-gray" className="mb-2">
-            What Clients Say
+            Ce que disent les clients
           </Typography>
           <Typography
             variant="lead"
             className="mb-10 max-w-3xl text-center !text-gray-600"
           >
-            Discover what our valued clients have to say about their experiences
-            with our services. We take pride in delivering exceptional results
-            and fostering lasting partnerships.
+            Decouvrez ce que nos précieux clients disent de leurs
+            experiences avec notre service. Nous sommes fiers  fournir
+            des résultats et de favoriser des partenariats durables.
           </Typography>
         </div>
         <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-3 lg:px-20">

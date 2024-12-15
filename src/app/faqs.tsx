@@ -5,28 +5,28 @@ import { Typography, Card } from "@material-tailwind/react";
 
 const FAQS = [
   {
-    title: "How do I get started?",
-    desc: "Getting started is easy! Simply [Provide a brief overview of the initial steps or link to a detailed guide].",
+    title: "Qu'est-ce que One Trajet ?",
+    desc: "One Trajet est une application mobile qui permet aux usagers de payer leurs tickets de transport directement dans le bus. Elle simplifie le travail des receveurs et améliore l'expérience de voyage en rendant les paiements rapides, sécurisés et sans contact.",
   },
   {
-    title: "Is there a free trial available?",
-    desc: "Yes, we offer a 30 days free trial so you can experience our mobile application with no commitment.",
+    title: "Dans quelles villes est disponible One Trajet ?",
+    desc: "One Trajet est actuellement disponible dans plusieurs villes. Consultez notre site Web ou l'application pour la liste complète des zones couvertes.",
   },
   {
-    title: "How can I upgrade my account?",
-    desc: "To upgrade your account, log in and navigate to the [Upgrade Account] section in your dashboard. Follow the prompts to select your preferred plan.",
+    title: "L'application est-elle gratuite ?",
+    desc: "Oui, le téléchargement de l'application One Trajet est entièrement gratuit.",
   },
   {
-    title: "Can I cancel my subscription anytime?",
-    desc: "Absolutely, you can cancel your subscription at any time with no questions asked. Your subscription will remain active until the end of the current billing cycle.",
+    title: "Quels sont les modes de paiement disponibles ?",
+    desc: "Vous pouvez payer via : Mobile Money (Orange Money ou Wave.)",
   },
   {
-    title: "How can I upgrade my account to paid?",
-    desc: "To upgrade your account, log in and navigate to the [Upgrade Account] section in your dashboard. Follow the prompts to select your preferred plan.",
+    title: "Les paiements sont-ils sécurisés ?",
+    desc: " Oui, tous les paiements sont sécurisés grâce à des technologies de cryptage avancées et à la conformité avec les normes internationales de sécurité des transactions.",
   },
   {
-    title: "What if I need help or have technical issues?",
-    desc: "Our dedicated support team is here to assist you. Reach out via [mention preferred support channels, e.g., live chat, email, or phone], and we'll get back to you promptly.",
+    title: "Y a-t-il un service client disponible ?",
+    desc: "Oui, notre service client est disponible 24h/24 et 7j/7. Contactez-nous par téléphone, e-mail ou via nos réseaux sociaux.",
   },
 ];
 
